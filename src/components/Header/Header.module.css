@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    max-width: 1312px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--primary-mostly-white);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+    gap: 32px;
+    justify-content: center;
+}
+
+.text {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-dark-blue);
+    transition: color 0.3s ease;
+}
+
+.textActive {
+    color: var(--primary-red);
+}
+
+.text:hover {
+    color: var(--primary-red);
+}
